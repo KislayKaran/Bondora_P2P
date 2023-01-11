@@ -13,13 +13,13 @@ current_path = os.getcwd()
 
 # getting the current path
 # loading in the model to predict on the data  
-class_pipe = os.path.join(current_path, 'static\pipeline_class2.pkl')
+class_pipe = os.path.join(current_path, 'static/pipeline_class2.pkl')
 
 with open(class_pipe, 'rb') as pickle_in1:
 
     model1 = pkl.load(pickle_in1)
 
-reg_pipe = os.path.join(current_path, 'static\pipeline_reg2.pkl')
+reg_pipe = os.path.join(current_path, 'static/pipeline_reg2.pkl')
     
 with open(reg_pipe, 'rb') as pickle_in2:
 
