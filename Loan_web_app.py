@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-import pickle as pkl
+import pickle
 import numpy as np
 
 
@@ -10,10 +10,10 @@ import numpy as np
 #model2 = pkl.load(open('C:/Users/Kislay Karan/PycharmProjects/Bondora_P2P/static/pipeline_reg2.pkl', 'rb'))
 
 # loading in the model to predict on the data  
-model1 = pkl.load(open('pipeline_class2.pkl', 'rb'))
+model1 = pickle.load(open('pipeline_class2.pkl', 'rb'))
 
 # loading in the model to predict on the data
-model2 = pkl.load(open('pipeline_reg2.pkl', 'rb'))
+model2 = pickle.load(open('pipeline_reg2.pkl', 'rb'))
 
 
 def predict_LoanStaus(input_data):
