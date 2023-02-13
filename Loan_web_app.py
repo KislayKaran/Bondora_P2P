@@ -10,23 +10,18 @@ import numpy as np
 #model2 = pkl.load(open('C:/Users/Kislay Karan/PycharmProjects/Bondora_P2P/static/pipeline_reg2.pkl', 'rb'))
 
 # loading in the model to predict on the data  
-pickle_in1 = open("pipeline_class2.pkl","rb")  
-model1 = pkl.load(pickle_in1)
-pickle_in1.close()
+model1 = pkl.load(open('pipeline_class2.pkl', 'rb'))
 
-# loading in the model to predict on the data  
-pickle_in2 = open("pipeline_reg2.pkl","rb")  
-model2 = pkl.load(pickle_in2)
-pickle_in2.close()
+# loading in the model to predict on the data
+model2 = pkl.load(open('pipeline_reg2.pkl', 'rb'))
+
 
 def predict_LoanStaus(input_data):
-    
     prediction1=model1.predict(input_data)
     return int(prediction1)
 
 
 def predict_emi_ela_proi(input_data):
-
     prediction2=model2.predict(input_data)
     prediction2 = prediction2.reshape([3, 1])
     m = np.array(prediction2)
