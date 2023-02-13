@@ -6,12 +6,19 @@ Contents  & Preprocessing
 
 # Table of Contents
 •Understanding the Dataset
+
 •Preprocessing
+
 •Exploratory Data Analysis
+
 •Feature Engineering
+
 •Feature Scaling
+
 •Data Splitting
+
 •Model Building
+
 •Deployment
 
 
