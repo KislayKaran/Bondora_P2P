@@ -1,4 +1,4 @@
-# Credit-risk-modelling-of-leading-European-P2P-lending-platform-Bondora....
+# Credit Risk Modelling of leading European P2P Lending Platform Bondora.
 The main purposes of this analysis are to summarize the characteristics of variables that can affect the loan status and to get some ideas about the relationships among variables.
 
 Contents  & Preprocessing
