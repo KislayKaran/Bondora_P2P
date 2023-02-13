@@ -2,6 +2,7 @@
 The main purposes of this analysis are to summarize the characteristics of variables that can affect the loan status and to get some ideas about the relationships among variables.
 
 Live Website for the Running Application of the Project :
+
 https://kislaykaran-bondora-p2p-loan-web-app-iww9ic.streamlit.app/
 
 
